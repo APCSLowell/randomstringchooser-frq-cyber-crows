@@ -1,8 +1,9 @@
 import java.util.*;
-private String [] ss; 
-private int valuesRemaining; 
+
 public class RandomStringChooser
 {
+  private String [] ss; //have to be declared inside the class to be acessed inside the class
+private int valuesRemaining; 
   RandomStringChooser(String [] s){
     
 for(int i=0;i<s.length;i++){
