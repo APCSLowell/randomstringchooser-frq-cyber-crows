@@ -11,7 +11,7 @@ ss[i]=s[i];
 }
 valuesRemaining=s.length; 
   }
-public string getNext(){
+public String getNext(){
 if(valuesRemaining==0)
   return "NONE";
 int random= (int) (Math.random() * valuesRemaining);
