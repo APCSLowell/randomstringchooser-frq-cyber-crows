@@ -16,7 +16,7 @@ if(valuesRemaining==0)
   return "NONE";
 int random= (int) (Math.random() * valuesRemaining);
 String selected= ss[random];
-values[random]= values[valuesRemaining-1]; //need to understand this line of code 
+ss[random]= ss[valuesRemaining-1]; //need to understand this line of code 
 valuesRemaining--; 
   return selected; 
   
